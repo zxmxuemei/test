@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JPG 画像の編集</title>
+  <link rel="stylesheet" type="text/css" href="styles_edit.css">
+  <script src="./fabric.js-master/dist/index.min.js"></script>
+
+</head>
+<body>
+  <div id="editContainer">
+    <img id="editedImage" src="" alt="編集後のJPG画像">
+  </div>
+
+  <textarea id="commentInput" placeholder="注釈を入力してください"></textarea>
+  <button id="addCommentButton" onclick="addComment()">注釈を追加</button>
+  <button id="saveButton" onclick="saveImage()">保存</button>
+  <button id="closeButton" onclick="closeEditor()">閉じる</button>
+
+  <script src="script_edit2.js"></script>
+</body>
+</html>
